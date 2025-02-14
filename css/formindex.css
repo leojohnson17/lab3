@@ -19,7 +19,7 @@ body {
 	line-height: var(--line-height);
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Arial, sans-serif;
+	font-family: 'Lora', 'Raleway', 'Open Sans';
 	padding: 10px;
 }
 form {
