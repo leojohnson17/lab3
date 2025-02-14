@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+   <head>
+      <title>My Form</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
+      <link rel="stylesheet" media="screen" href="css/formindex.css">
+   </head>
+   <body>
+      <form>
+         <h3>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" maxlength="12" size="35">
+         </h3>
+         <h3>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" autocomplete="on">
+         </h3>
+         <h3>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autocomplete="on">
+         </h3>
+         <h3>
+            <label for="date">Date of birth:</label>
+            <input type="date" id="date" name="date">
+         </h3>
+         <h3>
+            <button type="submit">Submit</button>
+            <button type="submit" id="submit" name="submit" formaction="submission_page">Submit on another page</button>
+         </h3>
+      </form>
+   </body>
+</html>
