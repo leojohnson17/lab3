@@ -74,7 +74,7 @@ button {
 }
 h3 {
   font-size: var(--font-size-xlarge);
-  line-height: calc(var(--baseline) * 1.5);
+  line-height: calc(var(--baseline) * 3);
 }
 button {
   background-color:blue;
